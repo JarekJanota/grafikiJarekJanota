@@ -1,10 +1,65 @@
 <!DOCTYPE html>
+<html>
+
 <head>
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <title>Grafika Jarek Janota</title>
+
+<style>
+#navbar ul {
+  list-style-type: none;
+    margin: 0;
+    padding: 0;
+  overflow: hidden;
+  background-color: #333;
+    width: auto;
+    left: 0;
+    top: 0;
+    padding-left: 0;
+
+}
+
+#navbar li {
+  float: left;
+}
+
+#navbar li a{
+     float: none;
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#navbar li a:hover
+    {
+        background: black;
+    }
+iframe
+    {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+</style>
 </head>
 <body>
+  <!--NAVBAR-->
+<div id="navbar">
+<ul>
+  <li><a href="index.html">Główna</a></li>
+  <li><a href="#praca">Praca</a></li>
+  <li><a href="#kontakt">Kontakt</a></li>
+  <li><a href="#omnie">O mnie</a></li>
+</ul>
+    </div>
+
+  <!--SLIDESHOW-->
+   <article>
+       <iframe src="slideshow.html" height="200px" width="100%" ></iframe>
+   </article>
+   <!--PRACE-->
     <article>
         <p style="color: green; font-family: verdana; font-size: 35px; border: 1px dotted red; text-align: center;">Grafika Wektorowa</p>
         <div class="css3_multicolumn">
@@ -18,7 +73,6 @@
                 <li><span><a href="9.png" width="200px"><img src="9.png" width="200px"></a></span></li>
                 <li><span><a href="8.png" width="200px"><img src="8.png" width="200px"></a></span></li>
                 <li><span><a href="4.png" width="200px"><img src="4.png" width="200px"></a></span></li>
-                <li><span><a href="18.png" width="200px"><img src="18.png" width="200px"></a></span></li>
             </ol>
         </div>
         <p style="color: green; font-family: verdana; font-size: 35px; border: 1px dotted red; text-align: center;">Grafika Rastrowa</p>
@@ -34,4 +88,9 @@
             </ol>
         </div>
     </article>
+    <!--STOPKA-->
+    <footer>
+  <p>Author: Jarek Janota 1G</p>
+</footer>
 </body>
+</html>

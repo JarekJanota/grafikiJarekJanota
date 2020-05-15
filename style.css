@@ -1,3 +1,9 @@
+body
+{
+    margin: 0;
+    padding: 0;
+     overflow-x: hidden;
+}
 div.css3_multicolumn
 {
     column-width: 150em;
@@ -11,4 +17,11 @@ div.css3_multicolumn
     -webkit-column-width:30em;
     -webkit-column-gap: 4em;
     -webkit-column-rule: 3px solid #cc0000;
+}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: #111;
+  color: white;
+    width: 100%;
 }
