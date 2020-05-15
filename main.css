@@ -82,36 +82,6 @@ body
 	animation-delay: 5s;
 }
 
-.baner li:nth-child(3) span
-{
-	background-image: url(3.jpg);
-	-webkit-animation-delay: 10s;
-	-moz-animation-delay: 10s;
-	-o-animation-delay: 10s;
-	-ms-animation-delay: 10s;
-	animation-delay: 10s;
-}
-
-.baner li:nth-child(4) span
-{
-	background-image: url(4.jpg);
-	-webkit-animation-delay: 15s;
-	-moz-animation-delay: 15s;
-	-o-animation-delay: 15s;
-	-ms-animation-delay: 15s;
-	animation-delay: 15s;
-}
-
-.baner li:nth-child(5) span
-{
-	background-image: url(4.jpg);
-	-webkit-animation-delay: 15s;
-	-moz-animation-delay: 15s;
-	-o-animation-delay: 15s;
-	-ms-animation-delay: 15s;
-	animation-delay: 15s;
-}
-
 @-webkit-keyframes imageAnimation
 {
 	0% {opacity:0;}
