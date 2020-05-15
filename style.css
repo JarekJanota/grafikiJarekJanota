@@ -1,0 +1,14 @@
+div.css3_multicolumn
+{
+    column-width: 150em;
+    column-gap: 30em;
+    column-rule: 30px solid #cc0000;
+    padding: 5px;
+    
+    -moz-column-width: 60em;
+     -moz-column-gap: 4em;
+    -moz-column-rule: 3px solid #cc0000;
+    -webkit-column-width:30em;
+    -webkit-column-gap: 4em;
+    -webkit-column-rule: 3px solid #cc0000;
+}
