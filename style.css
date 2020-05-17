@@ -129,8 +129,8 @@ footer {
     }
     .dropdown .dropbtn 
     {
+        padding: .5rem 1rem;
         margin: 0;
-        padding: 0;
      display: flex;
   justify-content: center;
   align-items: center;
@@ -153,14 +153,16 @@ footer {
 /*button*/
 
 .dropdown .dropbtn {
+     display: block;
+    text-decoration: none;
+    padding: 1rem;
   border: none;
   outline: none;
   color: white;
-  padding: 11px 16px;
   background-color: inherit;
   margin: 0;
     background: #333;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .dropdown:hover .dropbtn {
