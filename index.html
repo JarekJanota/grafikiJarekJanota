@@ -5,80 +5,12 @@
 <meta charset="utf-8">
 <link rel="stylesheet" href="style.css">
 <title>Grafika Jarek Janota</title>
+<script src="script.js" defer></script>
 
 <style>
-.navbar {
-  overflow: hidden;
-  background-color: #333;
-}
-
-.navbar a {
-  float: left;
-  font-size: 12px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-    
-}
-
-.dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 12px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  margin: 0;
-    background: green;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: black;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 2px 2px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-.navbar p
-    {
-    float: left;
-  font-size: 12px;
-  color: white;
-  text-align: center;
-  padding: 2px 2px;
-  text-decoration: none;
-    }
 iframe
     {
-    width: 99.8%;
+    width: 100%;
     overflow: hidden;
     padding: 0;
     margin: 0;
@@ -94,11 +26,18 @@ iframe
 <body>
 
 <!--NAVBAR-->
-<div class="navbar">
- <p>Jarek Janota 1G</p>
-  <a href="#home">Główna</a>
-  <a href="#news">Praca</a>
-  <div class="dropdown">
+<nav class="navbar">
+        <div class="brand-title">Jarek Janota 1G</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="#">Główna</a></li>
+            <li><a href="#">O mnie</a></li>
+            <div class="dropdown">
     <button class="dropbtn">rozwijany
     </button>
     <div class="dropdown-content">
@@ -107,7 +46,9 @@ iframe
       <a href="#">Link 3</a>
     </div>
   </div> 
-</div>
+          </ul>
+        </div>
+      </nav>
 
   <!--SLIDESHOW-->
    <article>
